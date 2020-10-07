@@ -2,50 +2,127 @@
 <html lang="fr">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet" />
     <title>Reservia</title>
   </head>
   <body>
     <!-- HEADER -->
     <header id="nav">
       <img src="img/logo/Reservia.svg" alt="Reservia" class="logo" />
-      <nav class="navLink">
-        <a id="navLink_lodging" href="#Lodging" title="Hébergements">Hébergements</a>
-        <a id="navLink_activity" href="#Activity" title="Activités">Activités</a>
-        <a id="navLink_register" href="" title="S'incrire">S'inscrire</a>
+      <nav class="navLinkList">
+        <a id="navLink_lodging" class="navLink" href="#Lodging" title="Hébergements">Hébergements</a>
+        <a id="navLink_activity" class="navLink" href="#Activity" title="Activités">Activités</a>
+        <a id="navLink_register" class="navLink" href="" title="S'incrire">S'inscrire</a>
       </nav>
     </header>
     <!-- HEADER -->
     <!-- MAIN -->
     <main>
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-      <h3>En plein centre ville ou en pleine nature</h3>
+      <p>En plein centre ville ou en pleine nature</p>
       <div id="searchBar">
-      <i id="positionIcon"></i>
-      <input id="searchField" type="text" placeholder="Marseille, France" name="searchField">
-      <button type="submit" class="btn">Rechercher</button>
+        <i id="positionIcon"></i>
+        <input id="searchField" type="text" placeholder="Marseille, France" name="searchField" />
+        <button type="submit" class="btn">Rechercher</button>
       </div>
+      <!-- FILTERS -->
+      <section id="filters">
+        <h3>Filtres</h3>
+        <div class="filtersName">
+          <div class="filtersNameWrapicon">
+            <i class="fas fa-money-bill-wave filtersNameIcon"></i>
+          </div>
+          <h3 class="filterTitle">Économique</h3>
+        </div>
+        <div class="filtersName">
+          <div class="filtersNameWrapicon">
+            <i class="fas fa-child filtersNameIcon"></i>
+          </div>
+          <h3 class="filterTitle">Familial</h3>
+        </div>
+        <div class="filtersName">
+          <div class="filtersNameWrapicon">
+            <i class="fas fa-heart filtersNameIcon"></i>
+          </div>
+          <h3 class="filterTitle">Romantique</h3>
+        </div>
+        <div class="filtersName">
+          <div class="filtersNameWrapicon">
+            <i class="fas fa-dog filtersNameIcon"></i>
+          </div>
+          <h3 class="filterTitle">Animaux autorisés</h3>
+        </div>
+        <!-- FILTERS -->
+      </section>
+      <div id="info">Plus de 500 logements sont disponibles dans cette ville</div>
+      <!-- LODGINGS -->
+      <section id="lodgingListTab">
+        <header><h2>Hébergements à Marseille</h2></header>
+        <div id="lodgingList">
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/cannebiere.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Auberge la Cannebière</h3>
+            <p class="lodgingDesc">Nuit à partir de <strong>25€</strong></p>
+          </figcaption>
+        </div>
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/port.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Hôtel du port</h3>
+            <p class="lodgingDesc">Nuit à partir de 52<strong>€</strong></p>
+          </figcaption>
+        </div>
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/mouettes.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Auberge la Cannebière</h3>
+            <p class="lodgingDesc">Nuit à partir de 76<strong>€</strong></p>
+          </figcaption>
+        </div>
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/mer.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Hôtel de la mer</h3>
+            <p class="lodgingDesc">Nuit à partir de 46<strong>€</strong></p>
+          </figcaption>
+        </div>
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/panier.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Auberge Le Panier</h3>
+            <p class="lodgingDesc">Nuit à partir de <strong>23€</strong></p>
+          </figcaption>
+        </div>
+        <div class="lodgingListContainer">
+          <img class="lodgingListContainerImg" src="img/hebergements/amina.jpg">
+          <figcaption class="lodgingCaption">
+            <h3>Gôtel chez Amina</h3>
+            <p class="lodgingDesc">Nuit à partir de 96<strong>€</strong></p>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+      <!-- LODGINGS -->
     </main>
     <!-- MAIN -->
     <!-- FOOTER -->
     <footer id="footer">
       <div id="about">
         <h3>A propos</h3>
-        <a id="navLink_" href="#" title="">Fonctionnement du site</a>
-        <a id="navLink_" href="#" title="">Condition générales de vente</a>
-        <a id="navLink_" href="#" title="">Données et confidentialité</a>
+        <a class="navLinkList" href="#" title="">Fonctionnement du site</a>
+        <a class="navLinkList" href="#" title="">Condition générales de vente</a>
+        <a class="navLinkList" href="#" title="">Données et confidentialité</a>
       </div>
       <div id="lodging">
         <h3>Nos Hébergements</h3>
-        <a id="navLink_" href="#" title="">Fonctionnement du site</a>
-        <a id="navLink_" href="#" title="">Condition générales de vente</a>
-        <a id="navLink_" href="#" title="">Données et confidentialité</a>
+        <a class="navLinkList" href="#" title="">Charte qualité</a>
+        <a class="navLinkList" href="#" title="">Soumettre votre hôtel</a>
       </div>
       <div id="help">
         <h3>Assistance</h3>
-        <a id="navLink_" href="#" title="">Fonctionnement du site</a>
-        <a id="navLink_" href="#" title="">Condition générales de vente</a>
-        <a id="navLink_" href="#" title="">Données et confidentialité</a>
+        <a class="navLinkList" href="#" title="">Centre d'aide</a>
+        <a class="navLinkList" href="#" title="">Nous contacter</a>
       </div>
     </footer>
     <!-- FOOTER -->
