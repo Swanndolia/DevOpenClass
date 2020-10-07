@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
     <title>Reservia</title>
   </head>
   <body>
@@ -10,9 +10,9 @@
     <header id="nav">
       <img src="img/logo/Reservia.svg" alt="Reservia" class="logo" />
       <nav class="navLink">
-        <a id="navLink_register" href="" title="S'incrire">S'inscrire</a>
         <a id="navLink_lodging" href="#Lodging" title="Hébergements">Hébergements</a>
         <a id="navLink_activity" href="#Activity" title="Activités">Activités</a>
+        <a id="navLink_register" href="" title="S'incrire">S'inscrire</a>
       </nav>
     </header>
     <!-- HEADER -->
@@ -20,6 +20,11 @@
     <main>
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <h3>En plein centre ville ou en pleine nature</h3>
+      <div id="searchBar">
+      <i id="positionIcon"></i>
+      <input id="searchField" type="text" placeholder="Marseille, France" name="searchField">
+      <button type="submit" class="btn">Rechercher</button>
+      </div>
     </main>
     <!-- MAIN -->
     <!-- FOOTER -->
