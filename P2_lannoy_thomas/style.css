@@ -8,9 +8,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
-h2 {
+h3 {
   font-size: 16px;
-  font-weight: 900;
+}
+h2 {
+  font-size: 18px;
 }
 h1 {
   font-size: 22px;
@@ -42,13 +44,13 @@ h1 {
   border: none;
   cursor: pointer;
   max-width: 135px;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 .lodgingListContainerImg {
   width: 235px;
   height: 120px;
   overflow: hidden;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   margin: auto;
   margin-top: 5px;
   display: block;
@@ -60,33 +62,34 @@ h1 {
   overflow: hidden;
   margin: auto;
   margin-left: 5px;
-  margin-top: 5px;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 20px 0px 0px 20px;
   object-fit: cover;
 }
-.lodgingCaption {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: left;
+.lodgingCaptionList {
+  line-height: 55%;
+  font-size: 14px;
   margin-left: 20px;
-  font-size: 13px;
-  max-width: 200px;
+  max-width: 180px;
+}
+.lodgingCaptionTop {
+  font-size: 14px;
+  margin-left: 20px;
+  max-width: 180px;
 }
 .lodgingListContainer {
   width: 250px;
   height: 200px;
   background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
 .lodgingTopContainer {
   width: 345px;
   height: 145px;
   background-color: white;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -112,7 +115,8 @@ h1 {
 }
 .activitySmallContainer {
   width: 300px;
-  height: 165px;
+  height: 170px;
+  margin-top: 40px;
   overflow: hidden;
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
@@ -120,7 +124,7 @@ h1 {
 }
 .activityMediumContainer {
   width: 300px;
-  height: 120px;
+  height: 230px;
   overflow: hidden;
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
@@ -128,14 +132,14 @@ h1 {
 }
 .activityLargeContainer {
   width: 300px;
-  height: 445px;
+  height: 440px;
   overflow: hidden;
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
 .filtersName {
-  width: calc(max-content + 10px);
+  padding: 5px;
   height: fit-content;
   border: #f2f2f2;
   border-width: medium;
@@ -168,6 +172,8 @@ h1 {
   align-items: flex-start;
   background: #f2f2f2;
   padding: 50px;
+  margin-right: -50px;
+  margin-left: -50px;
   max-height: 220px;
 }
 #about {
@@ -215,9 +221,9 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: -5px;
 }
 #lodgingTopTabContainer {
-  max-height: 880px;
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
   max-width: 420px;
@@ -225,11 +231,14 @@ h1 {
   padding-top: 10px;
 }
 #activityTab {
+  margin-top: 50px;
+}
+#activityTabContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  gap:50px;
+  gap: 50px;
   max-width: 1440px;
 }
 #activityTabContainerLeft {
