@@ -214,14 +214,9 @@ input[type="text"]{
 #navLink_register {
   font-weight: bold;
   color: #0065fc;
-  padding-inline-start: 15px;
 }
 #navLink_lodging {
   color: #0065fc;
-  padding-inline-start: 15px;
-}
-#navLink_activity {
-  padding-inline-start: 15px;
 }
 #lodgingTab {
   display: flex;
@@ -234,8 +229,7 @@ input[type="text"]{
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
   max-width: 800px;
-  padding: 40px;
-  padding-top: 10px;
+  padding: 10px 40px;
 }
 #lodgingList {
   border-radius: 15px 15px 15px 15px;
@@ -244,14 +238,12 @@ input[type="text"]{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: -5px;
 }
 #lodgingTopTabContainer {
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
   max-width: 420px;
-  padding: 40px;
-  padding-top: 10px;
+  padding: 10px 40px;
 }
 #activityTab {
   margin-top: 50px;
