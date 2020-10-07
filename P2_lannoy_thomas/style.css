@@ -1,15 +1,25 @@
 body {
   font-family: "Raleway", "Sans serif";
   max-width: 1440px;
-  margin: auto;
+  margin-right: 45px;
+  margin-left: 45px;
 }
 a {
   color: inherit;
   text-decoration: none;
 }
+h2 {
+  font-size: 16px;
+  font-weight: 900;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+}
 .navLinkList {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 .navLink:hover {
   border: 2px;
@@ -36,14 +46,29 @@ a {
   height: 120px;
   overflow: hidden;
   border-radius: 15px 15px 0px 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  margin-top: 5px;
   display: block;
+  object-fit: cover;
+}
+.lodgingTopContainerImg {
+  width: 130px;
+  height: 135px;
+  overflow: hidden;
+  margin: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 15px 0px 0px 15px;
+  object-fit: cover;
 }
 .lodgingCaption {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 13px;
+  max-width: 200px;
 }
 .lodgingListContainer {
   width: 250px;
@@ -51,8 +76,18 @@ a {
   background-color: white;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.lodgingTopContainer {
+  width: 345px;
+  height: 145px;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 #nav {
   justify-content: space-between;
@@ -65,12 +100,14 @@ a {
   margin-bottom: 15px;
 }
 #searchField {
+  border-width: 1px;
   display: flex;
-  width: 135px;
+  width: 235px;
   border-radius: 15px 0px 0px 15px;
   border-color: #f2f2f2;
 }
 #footer {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -106,24 +143,38 @@ a {
 #lodgingList {
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
-  max-width: 880px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 20px;
 }
-#lodgingListTab {
-  padding: 20px 40px;
+#lodgingListTabContainer {
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
-  max-width: 780px;
-
-  padding-bottom: 20px;
+  max-width: 800px;
+  padding: 40px;
+  padding-top: 10px;
+}
+#lodgingTopTabContainer {
+  border-radius: 15px 15px 15px 15px;
+  background-color: #f2f2f2;
+  max-width: 420px;
+  padding: 40px;
+  padding-top: 10px;
+}
+#lodgingTab {
+  max-height: 880px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 40px;
 }
 #filters {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
+  gap: 25px;
   max-width: 880px;
 }
