@@ -29,6 +29,7 @@
   }
   .filtersName{
     margin-right: 300px;
+    min-width: max-content;
   }
   #filtersTab{
     padding-left: 20px;
