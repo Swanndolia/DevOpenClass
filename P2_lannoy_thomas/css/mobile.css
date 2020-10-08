@@ -55,7 +55,7 @@
     border-color: #0065fc;
   }
   #navLink_register{
-    margin-left: 90%;
+    margin-left: 100%;
   }
   #filtersTab{
     padding-left: 20px;
@@ -97,6 +97,7 @@
     object-fit: cover;
   }
   .activitySmallContainer {
+    margin-bottom: -25px;
     width: 335px;
     height: 175px;
     margin-top: 40px;
@@ -106,6 +107,7 @@
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
   }
   .activityMediumContainer {
+    margin-bottom: -25px;
     width: 335px;
     height: 175px;
     overflow: hidden;
@@ -114,6 +116,7 @@
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
   }
   .activityLargeContainer {
+    margin-bottom: -35px;
     width: 335px;
     height: 175px;
     overflow: hidden;
@@ -158,6 +161,7 @@
     background-color: white;
     max-width: 649px;
     padding: 20px;
+    margin-bottom: -40px;
   }
   .lodgingCaptionList {
     line-height: 10%;
@@ -172,6 +176,9 @@
   #activityTab {
     padding-left: 20px;
     margin-bottom: 50px;
+  }
+  #activityTabContainerLeft {
+    margin-bottom: -10px;
   }
   #footer {
     padding-left: 25px;
