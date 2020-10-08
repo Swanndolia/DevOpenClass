@@ -11,12 +11,15 @@
   </head>
   <body>
     <!-- HEADER -->
+
     <header id="nav">
       <img src="img/logo/Reservia.svg" alt="Reservia" class="logo" />
       <nav class="navLinkList">
+        <div id=anchorLinks>
         <a id="navLink_lodging" class="navLink" href="#lodgingTab">Hébergements</a>
         <a id="navLink_activity" class="navLink" href="#activityTab">Activités</a>
-        <a id="navLink_register" class="navLink" href="">S'inscrire</a>
+      </div>
+      <a id="navLink_register" class="navLink" href="">S'inscrire</a>
       </nav>
     </header>
     <!-- HEADER -->
@@ -28,11 +31,11 @@
       <div id="searchBar">
         <i class="fas fa-map-marker-alt"></i>
         <input id="searchField" type="text" placeholder="Marseille, France" name="searchField" />
-        <button type="submit" class="btn">Rechercher</button>
+        <button type="submit" class="btn"><span id="desktopBtn">Rechercher</span><span id="mobileBtn"><i class="fas fa-search"></i></span></button>
       </div>
     </section>
       <!-- FILTERS -->
-      <section id="filters">
+      <section id="filtersTab">
         <h3>Filtres</h3>
         <div class="filtersName">
           <div class="filtersNameWrapicon">

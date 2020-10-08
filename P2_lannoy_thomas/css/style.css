@@ -20,13 +20,15 @@ h2 {
 input[type="text"]{
     padding-left: 20px;
 }
+.logo{
+  position: relative;
+}
 .navLinkList {
+  margin-top: 10px;
   margin-right: 50px;
   display: flex;
-  align-items: center;
-  gap: 50px;
-  flex-direction: row;
   flex-wrap: wrap-reverse;
+  gap: 50px;
   justify-content: right;
 }
 .navLink:hover {
@@ -165,15 +167,14 @@ font-size: 20px;
   margin-right: 50px;
   justify-content: space-between;
   display: flex;
-  flex-direction: row;
   padding: 10px;
-  align-items: flex-start;
 }
 #searchBar {
   display: flex;
   margin-bottom: 15px;
 }
 #searchField {
+  line-height: 44px;
   font-size: 18px;
   outline: none;
   border-width: 1px;
@@ -222,6 +223,7 @@ font-size: 20px;
 #navLink_register {
   font-weight: bold;
   color: #0065fc;
+  display: flex;
 }
 #navLink_lodging {
   color: #0065fc;
@@ -275,7 +277,7 @@ font-size: 20px;
   flex-wrap: wrap;
   max-width: 300px;
 }
-#filters {
+#filtersTab {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -314,4 +316,17 @@ margin: 45px;
   width: 8px;
   height: 8px;
   background-color: white;
+}
+#anchorLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#mobileBtn {
+  display: none;
+}
+.return {
+  display: none;
 }
