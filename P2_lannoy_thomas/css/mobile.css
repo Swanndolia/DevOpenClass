@@ -86,15 +86,15 @@
     max-width: 649px;
     padding: 20px;
   }
-  .lodgingCaptionList{
-      line-height: 10%;
+  .lodgingCaptionList {
+    line-height: 10%;
   }
   #lodgingTopTabContainer {
     border-radius: 15px 15px 15px 15px;
     background-color: #f2f2f2;
     max-width: 649px;
     padding: 20px;
-          line-height: 100%;
+    line-height: 100%;
   }
   #activityTab {
     padding-left: 20px;
@@ -103,5 +103,11 @@
   #footer {
     padding-left: 25px;
     margin: 0px;
+  }
+  #searchTab {
+    padding: 0px 20px;
+  }
+  #filters {
+    padding: 0px 200px 0px 20px;
   }
 }
