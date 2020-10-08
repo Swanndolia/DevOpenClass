@@ -21,6 +21,9 @@
   }
 }
 @media screen and (max-width: 759px) {
+  #logo{
+    margin-left: 20px;
+  }
   body {
     margin: 0px;
   }
