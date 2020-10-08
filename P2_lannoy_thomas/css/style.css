@@ -298,7 +298,6 @@ input[type="text"] {
   position: relative;
   background-color: transparent;
   padding: 2px;
-  line-height: -5px;
 }
 .fas.fa-star.empty {
   color: #f2f2f2;
@@ -352,12 +351,12 @@ input[type="text"] {
   display: none;
 }
 .starsContainerTop {
-  background-color: none;
+  background-color: transparent;
   position: relative;
   margin-top: 22px;
 }
 .starsContainerList {
-  background-color: none;
+  background-color: transparent;
   position: relative;
 }
 
