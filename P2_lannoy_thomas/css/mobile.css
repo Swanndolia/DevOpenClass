@@ -1,4 +1,4 @@
-@media screen and (min-width: 760px) and (max-width: 1400px) {
+@media screen and (min-width: 760px) and (max-width: 1300px) {
   #activityTab {
     margin-bottom: 50px;
     max-width: 880px;
@@ -7,9 +7,6 @@
     justify-content: left;
     column-gap: 25px;
     background-color: white;
-  }
-  .navLinkList {
-    justify-content: left;
   }
   #lodgingListTabContainer {
     background-color: white;
@@ -30,6 +27,35 @@
   .filtersName{
     margin-right: 300px;
     min-width: max-content;
+  }
+  #anchors{
+    padding: none;
+    gap: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 759px;
+  }
+  #navLink_activity {
+    border-width: 0px 0px 3px 0px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    padding: 30px 70% 30px 30%;
+  }
+  #navLink_activity:hover {
+    border-color: #0065fc;
+  }
+  #navLink_lodging {
+    padding: 30px 30% 30px 70%;
+    border-width: 0px 0px 3px 0px;    
+    border-style: solid;
+    border-color: #f2f2f2;
+  }
+  #navLink_lodging:hover {
+    border-color: #0065fc;
+  }
+  #navLink_register{
+    margin-left: 90%;
   }
   #filtersTab{
     padding-left: 20px;
