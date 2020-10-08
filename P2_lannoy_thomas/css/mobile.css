@@ -1,4 +1,4 @@
-@media screen and (min-width: 741px) and (max-width: 1400px) {
+@media screen and (min-width: 760px) and (max-width: 1400px) {
   #activityTab {
     margin-bottom: 50px;
     max-width: 880px;
@@ -23,7 +23,7 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 759px) {
   body {
     margin: 0px;
   }
