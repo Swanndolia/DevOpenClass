@@ -1,0 +1,107 @@
+@media screen and (max-width: 649px) {
+  body {
+    margin: 0px;
+  }
+  .activitySmallContainerImg {
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 5px;
+    object-fit: cover;
+  }
+  .activityMediumContainerImg {
+    margin: 5px;
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+  .activityLargeContainerImg {
+    margin: 5px;
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+  .activitySmallContainer {
+    width: 335px;
+    height: 175px;
+    margin-top: 40px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .activityMediumContainer {
+    width: 335px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .activityLargeContainer {
+    width: 335px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .lodgingTopContainer {
+    width: 335px;
+    height: 145px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .lodgingListContainer {
+    padding: 5px;
+    width: 335px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  .lodgingListContainerImg {
+    padding: 5px;
+    width: 325px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+  }
+  #lodgingListTabContainer {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    max-width: 649px;
+    padding: 20px;
+  }
+  .lodgingCaptionList{
+      line-height: 10%;
+  }
+  #lodgingTopTabContainer {
+    border-radius: 15px 15px 15px 15px;
+    background-color: #f2f2f2;
+    max-width: 649px;
+    padding: 20px;
+          line-height: 100%;
+  }
+  #activityTab {
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+  #footer {
+    padding-left: 25px;
+    margin: 0px;
+  }
+}
