@@ -43,13 +43,13 @@
     border-width: 0px 0px 3px 0px;
     border-color: #f2f2f2;
     border-style: solid;
-    padding: 30px 70% 30px 30%;
+    padding: 30px 50% 30px 30px;
   }
   #navLink_activity:hover {
     border-color: #0065fc;
   }
   #navLink_lodging {
-    padding: 30px 30% 30px 70%;
+    padding: 30px 30px 30px 50%;
     border-width: 0px 0px 3px 0px;    
     border-style: solid;
     border-color: #f2f2f2;
