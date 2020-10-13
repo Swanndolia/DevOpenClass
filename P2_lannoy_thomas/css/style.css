@@ -408,6 +408,7 @@ figure{
       -ms-flex-pack: left;
           justify-content: left;
   gap: 25px;
+  margin-top:25px;
 }
 #info {
   margin: 45px;
