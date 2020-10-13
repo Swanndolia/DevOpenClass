@@ -2,6 +2,7 @@ body {
   font-family: "Raleway", "Sans serif";
   max-width: 1440px;
   margin-left: 45px;
+  margin: auto;
 }
 a {
   color: inherit;
@@ -188,7 +189,6 @@ input[type="text"] {
   align-items: flex-start;
   background: #f2f2f2;
   padding: 50px;
-  margin-left: -50px;
   max-height: fit-content;
 }
 #about {
