@@ -4,6 +4,9 @@ body {
   margin-left: 45px;
   margin: auto;
 }
+section{
+  margin: auto;
+}
 a {
   color: inherit;
   text-decoration: none;
