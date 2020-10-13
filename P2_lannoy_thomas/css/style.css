@@ -1,11 +1,10 @@
 body {
   font-family: "Raleway", "Sans serif";
   max-width: 1440px;
-  margin-left: 45px;
   margin: auto;
 }
-section{
-  margin: auto;
+section {
+  margin-left:45px;
 }
 a {
   color: inherit;
@@ -170,7 +169,6 @@ figure{
   font-size: 18px;
   outline: none;
   border-width: 1px;
-  display: flex;
   width: 235px;
   margin-left: 50px;
   border-color: #f2f2f2;
@@ -269,6 +267,7 @@ figure{
 }
 #info {
   margin: 45px;
+  margin-left: 80px;
 }
 .fas {
   color: #0065fc;
@@ -311,7 +310,7 @@ figure{
   color: #c3c3c3;
 }
 #nav {
-  margin: -60px 100px 30px 25%;
+  margin: -60px 45px 30px 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -354,6 +353,7 @@ figure{
 }
 #logo {
   margin-top: 20px;
+  margin-left: 45px;
 }
 #mobileBtn {
   display: none;
@@ -367,4 +367,3 @@ figure{
   background-color: transparent;
   position: relative;
 }
-
