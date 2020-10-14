@@ -57,8 +57,11 @@
   #navLink_lodging:hover {
     border-color: #0065fc;
   }
-  #navLink_register{
+  #navLink_register {
     margin-left: 100%;
+  }
+  #nav{
+    margin: -60px 25% 30px 25%;
   }
   #filtersTab{
     padding-left: 20px;
