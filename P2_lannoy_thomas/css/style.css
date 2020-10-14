@@ -141,7 +141,8 @@ figure{
   overflow: hidden;
   border-radius: 15px 15px 15px 15px;
   object-fit: cover;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);  
+  margin-right:50px;
 }
 .filtersName {
   cursor: pointer;
@@ -191,11 +192,13 @@ figure{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 20%;
   align-items: flex-start;
   background: #f2f2f2;
   padding: 50px;
   max-height: fit-content;
+}
+#footer div{
+	margin-right:20%;
 }
 #about {
   display: flex;
@@ -214,13 +217,14 @@ figure{
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: left;
-  gap: 40px;
 }
 #lodgingListTabContainer {
   border-radius: 15px 15px 15px 15px;
   background-color: #f2f2f2;
   max-width: 800px;
   padding: 10px 40px;
+  margin-right: 40px;
+  margin-top:20px
 }
 #lodgingList {
   border-radius: 15px 15px 15px 15px;
@@ -234,6 +238,7 @@ figure{
   background-color: #f2f2f2;
   max-width: 420px;
   padding: 10px 40px;
+  margin-top: 20px;
 }
 #activityTab {
   margin-top: 50px;
@@ -243,7 +248,6 @@ figure{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 50px;
   max-width: 1440px;
 }
 #activityTabContainerLeft {
@@ -251,22 +255,26 @@ figure{
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 300px;
+  margin-right:50px;
 }
 #activityTabContainerRight {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 300px;
+  
 }
 #filtersTab {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  gap: 25px;
+}
+#filtersTab div,h3{
+  margin-right:25px;
 }
 #info {
-  margin: 45px;
+  margin: 25px;
   margin-left: 80px;
 }
 .fas {
@@ -347,9 +355,11 @@ figure{
 #anchors {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
   margin-left: auto;
   margin-right: 50px;
+}
+#anchors a{
+  margin-left: 40px;
 }
 #logo {
   margin-top: 20px;
