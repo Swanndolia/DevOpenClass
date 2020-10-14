@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 759px) {
   section {
-    margin-left: 10px;
+    margin: 0px;
   }
   #logo{
     margin-left: 20px;
