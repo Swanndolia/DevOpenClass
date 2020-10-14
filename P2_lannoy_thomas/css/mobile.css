@@ -19,12 +19,6 @@
     max-width: 600px;
     flex-wrap: wrap;
   }
-  #footer {
-    padding-left: 25px;
-    margin: 0px;
-	display: flex;
-	justify-content: center;
-  }
 }
 @media screen and (max-width: 759px) {
   #logo{
@@ -64,7 +58,7 @@
     border-color: #0065fc;
   }
   #navLink_register{
-    margin-left: 90%;
+    margin-left: 100%;
   }
   #filtersTab{
     padding-left: 20px;
@@ -190,12 +184,11 @@
     margin-bottom: -10px;
   }
   #footer {
-    padding: 0px 50px;
-	gap:100%;
-    margin: 0px;
-	display: flex;
-	justify-content: center;
 	text-align:center;
+	justify-content:center;
+    margin: 0px;
+	padding-left:15%;
+	padding-right:15%;
   }
   #searchTab {
     padding: 0px 20px;
