@@ -248,6 +248,7 @@ figure{
   color: transparent;
 }
 #footer {
+
   line-height: 28px;
   margin-top: 50px;
   display: -webkit-box;
@@ -408,7 +409,7 @@ figure{
       -ms-flex-pack: left;
           justify-content: left;
   gap: 25px;
-  margin-top:25px;
+  margin-top: 25px;
 }
 #info {
   margin: 45px;
