@@ -5,8 +5,10 @@
   }
   #lodgingList {
     justify-content: left;
-    column-gap: 25px;
     background-color: white;
+  }
+  #lodgingList figure{
+  	margin-right:25px;
   }
   #lodgingListTabContainer {
     background-color: white;
@@ -15,9 +17,13 @@
     margin-right: 250px;
   }
   .filtersName{
-    display: flex;
-    max-width: 600px;
+	min-width: max-content;
+    width: 150px;
     flex-wrap: wrap;
+		margin-bottom:20px;
+  }
+  #filtersTab div{
+    margin-right:15%;
   }
 }
 @media screen and (max-width: 759px) {
@@ -28,16 +34,24 @@
     margin: 0px;
   }
   .filtersName{
-    margin-right: 300px;
-    min-width: max-content;
+	min-width: max-content;
+    width: 150px;
+    flex-wrap: wrap;
+	margin-bottom:20px;
+  }
+  #filtersTab div{
+    margin-right:30%;
   }
   #anchors{
+	margin-right:0px;
     padding: 0px;
-    gap: 0px;
     width: 100%;
     display: flex;
     justify-content: center;
     max-width: 759px;
+  }
+  #anchors a{
+    margin-left:0px;
   }
   #navLink_activity {
     border-width: 0px 0px 3px 0px;
@@ -57,11 +71,11 @@
   #navLink_lodging:hover {
     border-color: #0065fc;
   }
-  #navLink_register {
+  #navLink_register{
     margin-left: 100%;
   }
   #nav{
-    margin: -60px 25% 30px 25%;
+	margin: -60px 25% 30px 25%;
   }
   #filtersTab{
     padding-left: 20px;
@@ -113,9 +127,10 @@
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
   }
   .activityMediumContainer {
-    margin-bottom: -25px;
+    margin-bottom: -35px;
     width: 335px;
     height: 175px;
+	margin-top: 40px;
     overflow: hidden;
     border-radius: 15px 15px 15px 15px;
     object-fit: cover;
@@ -126,6 +141,7 @@
     width: 335px;
     height: 175px;
     overflow: hidden;
+	margin-top: 40px;
     border-radius: 15px 15px 15px 15px;
     object-fit: cover;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
@@ -190,13 +206,10 @@
 	text-align:center;
 	justify-content:center;
     margin: 0px;
-	padding-left:15%;
-	padding-right:15%;
+	padding-left:25%;
   }
   #searchTab {
     padding: 0px 20px;
   }
-  #filters {
-    padding: 0px 200px 0px 20px;
-  }
+
 }
