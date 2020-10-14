@@ -30,16 +30,13 @@
   }
 }
 @media screen and (max-width: 759px) {
-  section {
-    margin: 0px;
-  }
   #logo{
     margin-left: 20px;
   }
   html, body {
     overflow-x: hidden;
   }
-  body {
+  body ,main, section{
     margin: 0px;
   }
   .filtersName{
