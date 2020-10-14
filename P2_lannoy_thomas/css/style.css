@@ -1,7 +1,6 @@
 .versionCheck{
-  color:#000000;
+  color:#000001;
 }
-
 body {
   font-family: "Raleway", "Sans serif";
   max-width: 1440px;
@@ -252,7 +251,7 @@ figure{
   color: transparent;
 }
 #footer {
-
+  width:100%;
   line-height: 28px;
   margin-top: 50px;
   display: -webkit-box;
