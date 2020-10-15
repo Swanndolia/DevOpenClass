@@ -1,5 +1,5 @@
 @media screen and (min-width: 760px) and (max-width: 1300px) {
-   body {
+  body {
     margin: 0px;
   }
   #activityTab {
@@ -10,87 +10,93 @@
     justify-content: left;
     background-color: white;
   }
-  #lodgingList figure{
-  	margin-right:25px;
+  #lodgingList figure {
+    margin-right: 25px;
   }
   #lodgingListTabContainer {
     background-color: white;
   }
-  .filtersNameWrapicon{
+  .filtersNameWrapicon {
     margin-right: 250px;
   }
-  .filtersName{
-	min-width: max-content;
+  .filtersName {
+    min-width: max-content;
     width: 150px;
     flex-wrap: wrap;
-		margin-bottom:20px;
+    margin-bottom: 20px;
   }
-  #filtersTab div{
-    margin-right:15%;
+  #filtersTab div {
+    margin-right: 15%;
   }
 }
+
 @media screen and (max-width: 759px) {
-  #logo{
+  #logo {
     margin-left: 20px;
   }
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
-  body ,main, section{
-    margin: 0px;
+  body,
+  main,
+  section {
+    justify-content: space-around;
   }
-  .filtersName{
-	min-width: max-content;
+  section {
+    margin-left: 5%;
+  }
+  .filtersName {
+    min-width: max-content;
     width: 150px;
     flex-wrap: wrap;
-	margin-bottom:20px;
+    margin-bottom: 20px;
   }
-  #filtersTab div{
-    margin-right:30%;
+  #filtersTab div {
+    margin-right: 30%;
   }
-  #anchors{
-	margin-right:0px;
+  #anchors {
+    margin-right: 0px;
     padding: 0px;
     width: 100%;
     display: flex;
     justify-content: center;
     max-width: 759px;
   }
-  #anchors a{
-    margin-left:0px;
+  #anchors a {
+    margin-left: 0px;
   }
   #navLink_activity {
-	width: 50%;
+    width: 50%;
     padding: 30px 40% 30px 10%;
     border-width: 0px 0px 3px 0px;
     border-color: #f2f2f2;
     border-style: solid;
-	
   }
   #navLink_activity:hover {
     border-color: #0065fc;
   }
   #navLink_lodging {
-	width: 50%;
+    width: 50%;
     padding: 30px 10% 30px 40%;
-    border-width: 0px 0px 3px 0px;    
+    border-width: 0px 0px 3px 0px;
     border-style: solid;
     border-color: #f2f2f2;
   }
   #navLink_lodging:hover {
     border-color: #0065fc;
   }
-  #navLink_register{
+  #navLink_register {
     margin-left: 80%;
   }
-  #nav{
-	max-width:100%;
-	margin-left:0px;
-	margin-right:0px;
-	display:flex;
-	flex-direction:reverse-column;
+  #nav {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: reverse-column;
   }
-  #filtersTab{
+  #filtersTab {
     padding-left: 20px;
   }
   #desktopBtn {
@@ -143,7 +149,7 @@
     margin-bottom: -35px;
     width: 335px;
     height: 175px;
-	margin-top: 40px;
+    margin-top: 40px;
     overflow: hidden;
     border-radius: 15px 15px 15px 15px;
     object-fit: cover;
@@ -154,7 +160,7 @@
     width: 335px;
     height: 175px;
     overflow: hidden;
-	margin-top: 40px;
+    margin-top: 40px;
     border-radius: 15px 15px 15px 15px;
     object-fit: cover;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
@@ -216,15 +222,21 @@
     margin-bottom: -10px;
   }
   #footer {
-	text-align:center;
-	justify-content:space-around;
+    margin-left: -2%;
+    text-align: center;
+    justify-content: space-around;
     margin: 0px;
-	max-width:680px;
+    max-width: 680px;
   }
-  #footer div{
-	margin-right:25%;
+  #footer h3 {
+    margin: 20px auto 0px;
   }
   #searchTab {
     padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  section {
+    margin-left: 0%;
   }
 }
