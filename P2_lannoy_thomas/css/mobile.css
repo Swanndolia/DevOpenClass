@@ -7,14 +7,12 @@
     max-width: 880px;
   }
   #lodgingList {
+    max-width: fit-content;
+    min-width: 550px;
     justify-content: left;
-    background-color: white;
   }
   #lodgingList figure {
     margin-right: 25px;
-  }
-  #lodgingListTabContainer {
-    background-color: white;
   }
   .filtersNameWrapicon {
     margin-right: 250px;
@@ -182,7 +180,7 @@
     height: 200px;
     overflow: hidden;
     border-radius: 20px 20px 20px 20px;
-    margin: auto;
+    margin: none;
     display: block;
     object-fit: cover;
     margin-bottom: 10px;
