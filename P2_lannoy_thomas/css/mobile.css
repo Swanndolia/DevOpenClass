@@ -6,6 +6,10 @@
     margin-bottom: 50px;
     max-width: 880px;
   }
+  #activityTabContainerLeft {
+    margin-bottom: 50px;
+    max-width: 335px;
+  }
   #lodgingList {
     max-width: fit-content;
     min-width: 550px;
@@ -29,6 +33,9 @@
 }
 
 @media screen and (max-width: 759px) {
+  #activityTabContainerLeft, #activityTabContainerRight {
+    min-width: 335px;
+  }
   #logo {
     margin-left: 20px;
   }
@@ -155,7 +162,7 @@
   }
   .activityLargeContainer {
     margin-bottom: -35px;
-    width: 335px;
+    min-width: 335px;
     height: 175px;
     overflow: hidden;
     margin-top: 40px;
