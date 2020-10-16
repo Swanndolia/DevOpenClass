@@ -1,21 +1,9 @@
+
+/*tablets old computers*/
+
 @media screen and (min-width: 760px) and (max-width: 1300px) {
   body {
     margin: 0px;
-  }
-  #activityTab {
-    max-width: 880px;
-  }
-  #activityTabContainerLeft {
-    margin-bottom: 50px;
-    max-width: 335px;
-  }
-  #lodgingList {
-    max-width: fit-content;
-    min-width: 550px;
-    justify-content: left;
-  }
-  #lodgingList figure {
-    margin-right: 25px;
   }
   .filtersNameWrapicon {
     margin-right: 250px;
@@ -29,7 +17,29 @@
   #filtersTab div {
     margin-right: 15%;
   }
+  #lodgingList {
+    max-width: fit-content;
+    min-width: 550px;
+    justify-content: left;
+  }
+  #lodgingList figure {
+    margin-right: 25px;
+  }
+  #activityTab {
+    max-width: 880px;
+  }
+  #activityTabContainerLeft {
+    margin-bottom: 0px;
+    max-width: 335px;
+  }
+  #activityTabContainerRight {
+    margin-bottom: 50px;
+    max-width: 335px;
+  }
 }
+
+
+/*most smartphones nowadays*/
 
 @media screen and (max-width: 759px) {
   html,
@@ -44,20 +54,11 @@
   section {
     margin-left: 5%;
   }
-  .filtersName {
-    min-width: max-content;
-    width: 150px;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  #activityTabContainerLeft, #activityTabContainerRight {
-    min-width: 335px;
-  }
+
+  /*header search and filters */
+
   #logo {
     margin-left: 20px;
-  }
-  #filtersTab div {
-    margin-right: 30%;
   }
   #anchors {
     margin-right: 0px;
@@ -69,6 +70,13 @@
   }
   #anchors a {
     margin-left: 0px;
+  }
+  #nav {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: reverse-column;
   }
   #navLink_activity {
     width: 50%;
@@ -93,21 +101,8 @@
   #navLink_register {
     margin-left: 80%;
   }
-  #nav {
-    max-width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    display: flex;
-    flex-direction: reverse-column;
-  }
-  #filtersTab {
-    padding-left: 20px;
-  }
-  #desktopBtn {
-    display: none;
-  }
-  #mobileBtn {
-    display: flex;
+  #searchTab {
+    padding: 0px 20px;
   }
   .fas.fa-search {
     color: white;
@@ -118,50 +113,33 @@
     border-radius: 15px;
     background-color: #0065fc;
   }
-  .activitySmallContainerImg {
-    width: 325px;
-    height: 115px;
-    border-radius: 15px 15px 0px 0px;
-    margin: 5px;
-    object-fit: cover;
+  #desktopBtn {
+    display: none;
   }
-  .activityMediumContainerImg {
-    margin: 5px;
-    width: 325px;
-    height: 115px;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
+  #mobileBtn {
+    display: flex;
   }
-  .activityLargeContainerImg {
-    margin: 5px;
-    width: 325px;
-    height: 115px;
-    border-radius: 15px 15px 0px 0px;
-    object-fit: cover;
+  #filtersTab {
+    padding-left: 20px;
   }
-  .activitySmallContainer {
-    width: 335px;
-    height: 175px;
-    overflow: hidden;
+  #filtersTab div {
+    margin-right: 30%;
+  }
+  .filtersName {
+    min-width: max-content;
+    width: 150px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  /* Lodging tab*/
+
+  #lodgingTopTabContainer {
     border-radius: 15px 15px 15px 15px;
-    object-fit: cover;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
-  }
-  .activityMediumContainer {
-    width: 335px;
-    height: 175px;
-    overflow: hidden;
-    border-radius: 15px 15px 15px 15px;
-    object-fit: cover;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
-  }
-  .activityLargeContainer {
-    width: 335px;
-    height: 175px;
-    overflow: hidden;
-    border-radius: 15px 15px 15px 15px;
-    object-fit: cover;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background-color: #f2f2f2;
+    max-width: 649px;
+    padding: 20px;
+    line-height: 100%;
   }
   .lodgingTopContainer {
     width: 335px;
@@ -173,6 +151,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 10px;
+  }
+  #lodgingListTabContainer {
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    max-width: 649px;
+    padding: 20px;
+    margin-bottom: -40px;
   }
   .lodgingListContainer {
     padding: 5px;
@@ -195,27 +180,77 @@
     display: block;
     object-fit: cover;
   }
-  #lodgingListTabContainer {
-    border-radius: 15px 15px 15px 15px;
-    background-color: white;
-    max-width: 649px;
-    padding: 20px;
-    margin-bottom: -40px;
-  }
   .lodgingCaptionList {
     line-height: 10%;
   }
-  #lodgingTopTabContainer {
-    border-radius: 15px 15px 15px 15px;
-    background-color: #f2f2f2;
-    max-width: 649px;
-    padding: 20px;
-    line-height: 100%;
-  }
+
+
+  /* Activity Tab*/
+
   #activityTab {
     padding-left: 20px;
     margin-bottom: 50px;
   }
+
+  #activityTabContainerLeft,
+  #activityTabContainerRight {
+    min-width: 335px;
+  }
+  #activityTabContainerLeft a {
+    margin: 5px 0px 0px 0px;
+  }
+  #activityTabContainerRight a {
+    margin: 5px 0px 0px 0px;
+  }
+  .activitySmallContainer {
+    width: 335px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .activitySmallContainerImg {
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 5px;
+    object-fit: cover;
+  }
+  .activityMediumContainer {
+    width: 335px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .activityMediumContainerImg {
+    margin: 5px;
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+  .activityLargeContainer {
+    width: 335px;
+    height: 175px;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    object-fit: cover;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  }
+  .activityLargeContainerImg {
+    margin: 5px;
+    width: 325px;
+    height: 115px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+  }
+
+
+  /* Footer */
+  
   #footer {
     margin-left: -2%;
     text-align: center;
@@ -226,16 +261,11 @@
   #footer h3 {
     margin: 20px auto 0px;
   }
-  #searchTab {
-    padding: 0px 20px;
-  }
-  #activityTabContainerLeft a {
-    margin: 5px 0px 0px 0px;
-  }
-  #activityTabContainerRight a {
-    margin: 5px 0px 0px 0px;
-  }
 }
+
+
+/*old small devices*/
+
 @media screen and (max-width: 400px) {
   section {
     margin-left: 0%;
