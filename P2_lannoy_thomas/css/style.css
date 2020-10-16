@@ -32,7 +32,7 @@ figure {
   margin: 0px;
 }
 
-/* CSS CLASS */
+/* CSS ID */
 
 /*search tab*/
 
@@ -98,6 +98,14 @@ figure {
   border-radius: 15px 0px 0px 15px;
   background-color: #f2f2f2;
 }
+.fas.fa-chart-line {
+color: black;
+width: 20px;
+height: 20px;
+margin: -52px 300px;
+background-color: #f2f2f2;
+}
+
 
 /*lodging tab*/
 
@@ -122,7 +130,7 @@ figure {
   object-fit: cover;
 }
 .lodgingCaptionList {
-  margin-top: -15px;
+  margin-top: -10px;
   line-height: 0%;
   font-size: 14px;
   margin-left: 15px;
@@ -241,7 +249,7 @@ figure {
 }
 
 
-/* CSS ID */
+/* CSS CLASS */
 
 /* Header and nav */
 
@@ -250,7 +258,7 @@ figure {
   margin-left: 45px;
 }
 #nav {
-  margin: -60px 5% 30px 25%;
+  margin: -67px 5% 30px 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,30 +277,30 @@ figure {
 }
 #navLink_register {
   padding: 30px 0px;
-  border-width: 3px 0px 0px 0px;
+  border-width: 2px 0px 0px 0px;
   color: #0065fc;
   font-weight: bolder;
 }
 #navLink_register:hover {
   border-style: solid;
-  margin-top: -3px;
+  margin-top: -2px;
 }
 #navLink_lodging {
   padding: 30px 0px;
-  border-width: 1px 0px 0px 0px;
+  border-width: 2px 0px 0px 0px;
   color: #0065fc;
 }
 #navLink_lodging:hover {
   border-style: solid;
-  margin-top: -1px;
+  margin-top: -2px;
 }
 #navLink_activity {
   padding: 30px 0px;
-  border-width: 1px 0px 0px 0px;
+  border-width: 2px 0px 0px 0px;
 }
 #navLink_activity:hover {
   border-style: solid;
-  margin-top: -1px;
+  margin-top: -2px;
 }
 #anchors {
   display: -webkit-box;

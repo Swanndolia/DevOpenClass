@@ -250,15 +250,15 @@
 
   /* Footer */
   
-  #footer {
+  footer {
     margin-left: -2%;
-    text-align: center;
-    justify-content: space-around;
+    text-align: left;
+    justify-content: left;
     margin: 0px;
     max-width: 680px;
   }
   #footer h3 {
-    margin: 20px auto 0px;
+    margin: 20px 0px 0px;
   }
 }
 
@@ -266,7 +266,26 @@
 /*old small devices*/
 
 @media screen and (max-width: 400px) {
-  section {
-    margin-left: 0%;
+  section, nav, header {
+    margin-left: -10px;
+  }
+  figure{
+    max-width: 290px;
+  }
+  #navLink_register{
+    margin-left: 75%;
+  }
+  #searchField{
+    width: 180px;
+  }
+  #info{
+    margin-left: 50px;
+  }
+  #footer{
+    padding-left: 5%;
+  }
+  .fas.fa-chart-line{
+    margin-left: 250px;
+    margin-right: 100px;
   }
 }
